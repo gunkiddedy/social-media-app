@@ -11,8 +11,8 @@ defineProps({})
 <template>
   <Head title="Home" />
   <div class="grid grid-cols-12 gap-1">
-    <div class="col-span-3 p-4">
-      <GroupList />
+    <div class="col-span-3 p-4 relative">
+      <GroupList class="fixed max-w-[350px]" />
     </div>
 
     <div class="col-span-6 p-4">
@@ -20,8 +20,8 @@ defineProps({})
       <PostList />
     </div>
 
-    <div class="col-span-3 p-4">
-      <FollowingList />
+    <div class="col-span-3 p-4 relative">
+      <FollowingList class="fixed w-full max-w-[350px]" />
     </div>
   </div>
 </template>
