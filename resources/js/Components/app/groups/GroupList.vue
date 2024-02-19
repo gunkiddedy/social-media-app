@@ -9,11 +9,11 @@ const searchKeyword = ref("")
 
 <template>
   <div class="mygroups">
-    <div class="section-title mb-4 border-b border-gray-400 py-4">
+    <div class="section-title mb-3">
       <h2 class="text-2xl font-bold capitalize text-center">My groups</h2>
     </div>
 
-    <div class="search">
+    <div class="search mb-3">
       <TextInput
         v-model="searchKeyword"
         placeholder="search your groups"

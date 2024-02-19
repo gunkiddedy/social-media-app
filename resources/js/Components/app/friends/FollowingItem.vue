@@ -14,9 +14,7 @@ defineProps({
 
 <template>
   <!-- group wraper -->
-  <div
-    class="group-wraper img flex items-center space-x-2 hover:bg-gray-50 p-4"
-  >
+  <div class="friend-item p-4 shadow-sm mb-3 bg-white">
     <img
       :src="image"
       :alt="title"
