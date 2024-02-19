@@ -18,7 +18,6 @@ const searchKeyword = ref("")
         v-model="searchKeyword"
         placeholder="search your groups"
         class="w-full"
-        autofocus
       />
     </div>
 
