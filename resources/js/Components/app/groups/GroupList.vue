@@ -8,7 +8,7 @@ const searchKeyword = ref("")
 </script>
 
 <template>
-  <div class="mygroups">
+  <div class="group-list">
     <div class="section-title mb-3">
       <h2 class="text-2xl font-bold capitalize text-center">My groups</h2>
     </div>
